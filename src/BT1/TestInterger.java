@@ -10,6 +10,9 @@ public class TestInterger {
         var n = input.nextInt();
         for (int i = 0; i < n; i++) {
             myStack.push(i);
+        }
+        System.out.println("Cac Phan Tu Sau Khi dao");
+        while (!myStack.isEmpty()){
             System.out.print(myStack.pop()+" ");
         }
     }
